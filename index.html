@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <title>Mutlu Yıllar</title>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="container">
+        <header>
+            <h1>İyi ki doğdun, İncii! 🎉</h1>
+            <p class="subtitle">Nice yaşlara</p>
+        </header>
+
+        <div class="hero-image" id="hero">
+            <div class="floating-bubbles" id="bubbles"></div>
+            
+            <h1 class='cake-title'>Pastanı üfle!</h1>
+            <div class="cake-container">
+                <img src="placeholder.png" alt="Doğum Günü Pastası" class="cake-image">
+                
+                <div class="candles-wrapper">
+                    <div class="candle candle1">
+                        <div class="flame flame1"></div>
+                    </div>
+                    <div class="candle candle2">
+                        <div class="flame flame2"></div>
+                    </div>
+                    <div class="candle candle3">
+                        <div class="flame flame3"></div>
+                    </div>
+                </div>
+            </div>
+            <p class='cake-description'>Üflemek için mumların üzerine dokun!</p>
+            <p class='cake-description' id='gpt'>Pastayı ChatGPT çizdi :D</p>
+
+            <div class='gift' style='display: none;'> 
+                <h1 class='gift-title'>Bir de hediyem var!</h1>
+                <div class="gift-container">
+                    <img src="gift.png" alt="Hediye" class="gift-image">
+                </div>
+                <p class='gift-description'>Tekrardan doğum günün kutlu olsun! Miktardan dolayı kusura bakma, anca bu kadar oldu. Artık kendine bir kahverengi yelek alırsın :) Bir de bunu birine göstermezsen iyi olur, bayağı vakit aldı. Sadece sana özel, başkasına yapmam.</p>
+                <p class='gift-description'>Hediye kodu: YM6DAPRA---- (Son dört haneyi yazmadım güvenlik için sana direkt söylerim onu da)</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <div class="modal-close" onclick="closeModal()">×</div>
+            <img src="" class="modal-image" id="modalImage">
+        </div>
+    </div>
+    
+    <script src='index.js'></script>
+</body>
+</html>
